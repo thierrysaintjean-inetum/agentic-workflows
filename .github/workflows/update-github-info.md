@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+model: copilot/gpt-5
 tools:
   bash: true
   edit: true
