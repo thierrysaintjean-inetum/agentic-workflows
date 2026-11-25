@@ -10,7 +10,8 @@ permissions:
 tools:
   bash: false
   edit: true
-  web-fetch: true
+  web-fetch: {}
+  cli-proxy: false
 network:
   allowed:
     - github.blog
