@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 engine:
   id: copilot
   copilot-sdk: true
@@ -32,10 +33,11 @@ safe-outputs:
 
 # Update GitHub Info
 
-Read `notes/mona-notes.md` and `site/content/github-info.md`. Then use web-fetch to read both:
+Read `notes/mona-notes.md` and `site/content/github-info.md`. Then use web-fetch to read all three sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Identify recent, verified updates that help developers learn GitHub faster and fit the site's existing themes. Keep proposed summaries short and practical. Cite each selected update with a direct link to its GitHub Blog or Changelog source.
 
